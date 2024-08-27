@@ -1,6 +1,6 @@
 ### ビルド
 ```
-docker build -t next-schedule-app .
+
 ```
 ⚫︎補足
 - -t next-schedule-app: -tオプションは、Dockerイメージにタグを付けるために使用。ここではnext-schedule-appという名前のタグが付け。イメージにわかりやすい名前を付けることができる。
@@ -10,11 +10,6 @@ docker build -t next-schedule-app .
 ### Docker Composeを使用
 ```
 docker compose up -d
-```
-
-###  Dockerコンテナの実行
-```
-docker run -p 3000:3000 next-schedule-app
 ```
 
 ### コンテナを止める
