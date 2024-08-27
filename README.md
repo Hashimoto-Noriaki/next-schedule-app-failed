@@ -5,7 +5,7 @@ docker build -t next-schedule-app .
 
 ###  Dockerコンテナの実行
 ```
-docker run -p 3000:3000 my-next-app
+docker run -p 3000:3000 next-schedule-app
 ```
 
 ### Docker Composeを使用
