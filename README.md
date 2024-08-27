@@ -1,6 +1,13 @@
 ### ビルド
 ```
 docker build -t next-schedule-app .
+
+docker compose build
+```
+
+### Docker Composeを使用
+```
+docker compose up -d
 ```
 
 ###  Dockerコンテナの実行
@@ -8,12 +15,10 @@ docker build -t next-schedule-app .
 docker run -p 3000:3000 next-schedule-app
 ```
 
-### Docker Composeを使用
+### コンテナを止める
 ```
-docker-compose up
+docker compose down 
 ```
-
-
 
 ## Getting Started
 
