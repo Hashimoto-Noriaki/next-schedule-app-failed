@@ -23,7 +23,7 @@ export const NotLoginLayout = ({ children }: PropsType) => {
           </nav>
         </div>
       </header>
-      <main className="pt-[50px] bg-gradient-to-r from-lime-100 to-lime-200 h-screen flex flex-col justify-center items-center">
+      <main className="pt-[50px] bg-react-blue  h-screen flex flex-col justify-center items-center">
         {children}
       </main>
     </div>
