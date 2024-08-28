@@ -1,21 +1,21 @@
-import React from 'react'
+import React from "react";
 
-const TopPage = () => {
+export const TopPage = () => {
   return (
-    <div>
-      <header>
-          <div className="flex justify-between">
-              <p>スケジュール管理</p>
-              <nav>
-                <ul className="flex gap-7">
-                <p>利用方法</p>
-                <p>ログイン</p>
-                </ul>
-              </nav>
-          </div>
+    <div className="relative">
+      <header className="line-height:50px; fixed top-0 left-0 right-0">
+        <div className="container mx-auto flex justify-between">
+          <p className="logo">スケジュール管理APP</p>
+          <nav>
+            <ul className="flex gap-5 text-lime-600">
+              <li>ご利用方法</li>
+              <li>ログイン</li>
+            </ul>
+          </nav>
+        </div>
       </header>
     </div>
-  )
-}
+  );
+};
 
 export default TopPage;
