@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'react-blue': '#61DAFB', // Reactの水色に設定
+        "react-blue": "#61DAFB", // Reactの水色に設定
       },
     },
   },

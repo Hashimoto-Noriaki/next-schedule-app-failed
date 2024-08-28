@@ -19,7 +19,9 @@ export const TopPage = () => {
           <h1 className="text-7xl logo">スケジュール管理</h1>
           <p className="pt-[10vh] text-5xl">スケジュールを管理するアプリ</p>
           <div className="pt-[20vh]">
-            <button className="bg-lime-800 text-white p-4 text-lg rounded-lg">ログイン</button>
+            <button className="bg-lime-800 text-white p-4 text-lg rounded-lg">
+              ログイン
+            </button>
           </div>
         </div>
       </main>
