@@ -8,3 +8,16 @@ docker compose up --build -d
 ```
 docker compose down 
 ```
+
+### ESLint
+```
+npm run lint
+```
+
+### Prettier
+```
+npm run format
+```
+
+
+
